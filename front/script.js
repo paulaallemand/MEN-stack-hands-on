@@ -22,6 +22,7 @@ const submitForm = (e) => {
         credentials: "same-origin"
       })
         .then((response) => {
+            window.location.href = "./index2.html"
             return alert("Cadastro realizado com sucesso!")
         })
         .catch((e) => {
